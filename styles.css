@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body div {
+    /* border: 1px solid black; */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(17, 138, 219);
+
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
+    display:flex ;
+    flex-direction: column;
+    /* justify-content: end; */
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid red; */
+
+}
+
+.kc_fab_main_btn {
+    background-color: #F44336;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #F44336;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    align-self:flex-end;
+    justify-self: end;
+  }
+  
+  .kc_fab_main_btn:focus {
+    transform: scale(1.1);
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .maincont
+  {
+      height: 100%;
+      /* border: 1px solid red; */
+      display: flex;
+      padding: 50px;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+  }
+  .row
+  {
+    /* border: 1px solid red; */
+    width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .card
+  {
+      
+      height: 150px;
+      width: 300px;
+      /* border: 1px solid red; */
+      border-radius: 10px;
+      display: flex;
+      flex-direction:column;
+      padding: 10px;
+      color: #FFF;
+      font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+      font-size: 20px;
+      background: linear-gradient(150deg, #39ef74, #4600f1 100%);
+  }
+  .author
+  {
+    justify-self: right;
+    font-weight:lighter;
+  }
+ 
