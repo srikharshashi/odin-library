@@ -29,7 +29,7 @@ body div {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    height: 100px;
+    height: 80px;
     font-size: 25px;
     color: white;
     font-weight: 800;
@@ -40,25 +40,26 @@ body div {
 .content {
     padding: 20px;
     flex: 1;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     /* justify-content: end; */
 }
 
 .footer {
-    height: 50px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: small;
     padding: 10px;
     /* border: 1px solid red; */
 
 }
 
-.kc_fab_main_btn {
+.addbutton {
     background-color: #F44336;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
     background: #F44336;
     border: none;
@@ -68,53 +69,66 @@ body div {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transition: .3s;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    align-self:flex-end;
+    align-self: flex-end;
     justify-self: end;
-  }
-  
-  .kc_fab_main_btn:focus {
-    transform: scale(1.1);
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
-  .maincont
-  {
-      height: 100%;
-      /* border: 1px solid red; */
-      display: flex;
-      padding: 50px;
-      flex-direction: column;
-      justify-content: space-evenly;
+}
 
-  }
-  .row
-  {
+.addbutton:focus {
+    transform: scale(1.1);
+    
+}
+
+.maincont {
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.row {
     /* border: 1px solid red; */
     width: 100%;
-      display: flex;
-      justify-content: space-between;
-  }
-  .card
-  {
-      
-      height: 150px;
-      width: 300px;
-      /* border: 1px solid red; */
-      border-radius: 10px;
-      display: flex;
-      flex-direction:column;
-      padding: 10px;
-      color: #FFF;
-      font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+
+    height: 120px;
+    width: 250px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     justify-content: space-evenly;
     align-items: center;
-      font-size: 20px;
-      background: linear-gradient(150deg, #39ef74, #4600f1 100%);
-  }
-  .author
-  {
+    font-size: 20px;
+    /* background: linear-gradient(150deg, #39ef74, #4600f1 100%); */
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,232,1) 100%);
+    }
+.author {
     justify-self: right;
-    font-weight:lighter;
-  }
- 
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.switch {
+    border: 1px solid wheat;
+    height: 25px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
