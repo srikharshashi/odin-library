@@ -211,3 +211,20 @@ body {
     border: 1px solid white;
     color: #FFF;
 }
+.buttons
+{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.delbutton
+{
+    border: 1px solid rgb(182, 32, 32);
+    color: #a3160c;
+}
+.delbutton:hover
+{
+    border: 1px solid rgb(221, 38, 38);
+    color: rgb(235, 35, 35);
+}
