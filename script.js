@@ -48,7 +48,7 @@ function getcard(bookname, authorname) {
         myLibrary.splice(id,1);
         console.log(myLibrary);     
         });
-    delbutton.innerText="Delete";
+    delbutton.innerText="Delete";   
     delbutton.classList.add("switch");
     delbutton.classList.add("delbutton");
     const buttons=document.createElement("div");
